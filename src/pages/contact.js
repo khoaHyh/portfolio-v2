@@ -22,6 +22,11 @@ const contact = () => {
               placeholder="email" 
               className="form-control" 
             />
+            <input 
+              type="text" 
+              name="_gotcha" 
+              className="gotcha"
+            />
             <textarea 
               name="message" 
               id="" 

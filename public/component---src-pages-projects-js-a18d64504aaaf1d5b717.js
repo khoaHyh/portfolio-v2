@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{"16l3":function(e,t,a){"use strict";a.r(t),a.d(t,"query",(function(){return s}));var n=a("q1tI"),r=a.n(n),c=a("7oih"),o=a("DxCv"),l=a("EYWl"),s="2372577818";t.default=function(e){var t=e.data.allStrapiProjects.nodes;return r.a.createElement(c.a,null,r.a.createElement(l.a,{title:"Projects",description:"Projects Page"}),r.a.createElement("section",{className:"projects-page"},r.a.createElement(o.a,{projects:t,title:"all projects"})))}}}]);
+//# sourceMappingURL=component---src-pages-projects-js-a18d64504aaaf1d5b717.js.map
