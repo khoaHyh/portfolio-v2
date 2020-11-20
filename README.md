@@ -10,7 +10,7 @@
   </a>
 </p>
 
-![demo] (https://raw.githubusercontent.com/khoaHyh/portfolio-v2/master/static/portfolio-v2-screenshot.png)
+![demo](https://raw.githubusercontent.com/khoaHyh/portfolio-v2/master/static/portfolio-v2-screenshot.png)
 
 ## Credits
 
