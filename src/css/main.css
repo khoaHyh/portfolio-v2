@@ -427,6 +427,9 @@ Hero
 .hero-hi {
   margin-bottom: 2rem;
 }
+.hero strong {
+  font-weight: 900;
+}
 
 .hero-center {
   height: 100%;

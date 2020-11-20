@@ -10,6 +10,8 @@
   </a>
 </p>
 
+![demo] (https://raw.githubusercontent.com/khoaHyh/portfolio-v2/master/static/portfolio-v2-screenshot.png)
+
 ## Credits
 
   * Boilerplate created by <a href="https://www.youtube.com/codingaddict" target="_blank" rel="noopener noreferrer">codingaddict</a>. Starter code: <a href="https://github.com/john-smilga/strapi-gatsby-porfolio-2020-api" target="_blank" rel="noopener noreferrer">here</a>
