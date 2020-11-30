@@ -12,11 +12,11 @@ const Projects = ({ projects, title, showLink }) => {
           {index} {...project} />
       })}
     </div>
-    {showLink && (
-      {/* <Link to='/projects' className="btn center-btn">
+    {/* {showLink && (
+      <Link to='/projects' className="btn center-btn">
         more projects
-      </Link> */}
-    )}
+      </Link>
+    )} */}
   </section>
 }
 
