@@ -8,15 +8,16 @@ const data = [
     text: "home",
     url: "/",
   },
+  // {
+  //   id: 2,
+  //   text: "about",
+  //   url: "/about/",
+  // },
   {
     id: 2,
-    text: "about",
-    url: "/about/",
-  },
-  {
-    id: 3,
     text: "projects",
-    url: "/projects/",
+    // url: "/projects/",
+    url: "/#projects",
   },
   // {
   //   id: 4,
@@ -24,7 +25,7 @@ const data = [
   //   url: "/blog/",
   // },
   {
-    id: 4,
+    id: 3,
     text: "contact",
     url: "/contact/",
   },
@@ -33,6 +34,7 @@ const data = [
 const tempLinks = data.map(link => {
   return (
     <li key={link.id}>
+      {/* <Link to={link.url}>{link.text}</Link> */}
       <Link to={link.url}>{link.text}</Link>
     </li>
   )

@@ -4,7 +4,7 @@ import Project from "./Project"
 import { Link } from "gatsby"
 
 const Projects = ({ projects, title, showLink }) => {
-  return <section className="section projects">
+  return <section id="projects" className="section projects">
     <Title title={title} />
     <div className="section-center projects-center">
       {projects.map((project, index) => {
@@ -13,9 +13,9 @@ const Projects = ({ projects, title, showLink }) => {
       })}
     </div>
     {showLink && (
-      <Link to='/projects' className="btn center-btn">
-        projects
-      </Link>
+      {/* <Link to='/projects' className="btn center-btn">
+        more projects
+      </Link> */}
     )}
   </section>
 }
