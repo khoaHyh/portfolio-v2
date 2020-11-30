@@ -221,6 +221,7 @@ Navbar
   align-items: center;
   z-index: 200;
   background: var(--clr-white);
+  opacity: 0.85;
 }
 .nav-center {
   width: 90vw;
@@ -291,12 +292,20 @@ Navbar
 Sidebar
 ===============
 */
+/* .sidebar-blur {
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 998;
+  filter: blur(5px);
+} */
 .sidebar {
   background: var(--clr-primary-1);
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 85%;
   height: 100%;
   z-index: 999;
   display: grid;
