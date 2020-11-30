@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 // Each item is an object to have navigation links all in one place
 const data = [
@@ -35,7 +35,7 @@ const tempLinks = data.map(link => {
   return (
     <li key={link.id}>
       {/* <Link to={link.url}>{link.text}</Link> */}
-      <Link to={link.url}>{link.text}</Link>
+      <AnchorLink to={link.url} title={link.text} />
     </li>
   )
 })
