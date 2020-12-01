@@ -3,19 +3,19 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 // Each item is an object to have navigation links all in one place
 const data = [
-  {
-    id: 1,
-    text: "home",
-    url: "/",
-  },
+  // {
+  //   id: 1,
+  //   text: "home",
+  //   url: "/",
+  // },
   // {
   //   id: 2,
   //   text: "about",
   //   url: "/about/",
   // },
   {
-    id: 2,
-    text: "projects",
+    id: 1,
+    text: "work",
     // url: "/projects/",
     url: "/#projects",
   },
@@ -25,9 +25,9 @@ const data = [
   //   url: "/blog/",
   // },
   {
-    id: 3,
+    id: 2,
     text: "contact",
-    url: "/contact/",
+    url: "/#contact",
   },
 ]
 

@@ -1,11 +1,9 @@
 import React from "react"
-import Layout from "../components/Layout"
-import SEO from "../components/SEO"
+import Title from "./Title"
 
-const contact = () => {
-  return <Layout>
-    <SEO title="Contact" description="Contact Page" />
-    <section className="contact-page">
+const Contacts = ({ title }) => {
+    return <section id="contact" className="contact-page">
+      <Title title={title} />
       <article className="contact-form">
         <h3>get in touch</h3>
         <form action="https://formspree.io/f/mgepzdwk" method="POST">
@@ -41,7 +39,6 @@ const contact = () => {
         </form>
       </article>
     </section>
-  </Layout>
-}
-
-export default contact
+  }
+  
+export default Contacts

@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 import SocialLinks from "../constants/socialLinks"
 // import Image from "gatsby-image"
 // import { graphql, useStaticQuery } from "gatsby"
@@ -30,9 +31,7 @@ const Hero = () => {
           <h1 className="hero-hi">Hi!</h1>
           <h1>I'm <strong>Khoa Huynh</strong></h1>
           <h4>Web Developer</h4>
-          <Link to='/contact' className="btn">
-            contact me
-          </Link>
+          <AnchorLink to='/#contact' className="btn" title="contact me" />
           <SocialLinks />
         </div>
       </article>
