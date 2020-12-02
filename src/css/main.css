@@ -296,18 +296,23 @@ Sidebar
   background: var(--clr-primary-1);
   position: fixed;
   top: 0;
-  left: 0;
-  width: 85%;
+  right: 0;
+  bottom: 0;
+  width: 65%;
   height: 100%;
   z-index: 999;
   display: grid;
   place-items: center;
-  opacity: 0;
+  /* opacity: 0; */
+  /* display: none; */
+  visibility: hidden;
   transition: var(--transition);
-  transform: translateX(-100%);
+  /* transform: translateX(-100%); */
+  transform: translateX(100%);
 }
 .show-sidebar {
-  opacity: 1;
+  /* opacity: 1; */
+  visibility: visible;
   transform: translateX(0);
 }
 .sidebar-links li {
@@ -516,6 +521,7 @@ Projects
   border-top-right-radius: var(--radius);
   height: 19rem;
   z-index: 1;
+  box-shadow: var(--dark-shadow);
 }
 .project-img::after {
   content: "";
@@ -532,10 +538,12 @@ Projects
   opacity: 0;
 }
 .project-info {
-  background: var(--clr-primary-1);
+  background: var(--clr-white);
   padding: 1rem 2rem;
   border-bottom-left-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
+  box-shadow: var(--dark-shadow);
+  z-index: 1;
 }
 .project-number {
   display: inline-block;
@@ -604,13 +612,9 @@ Projects
     grid-row: 1 / 1;
     height: 30rem;
     border-radius: var(--radius);
-    box-shadow: var(--dark-shadow);
   }
   .project-info {
     border-radius: var(--radius);
-    box-shadow: var(--dark-shadow);
-
-    z-index: 1;
     grid-column: 5 /12;
     grid-row: 1 / 1;
   }
@@ -631,26 +635,26 @@ Footer
 */
 .footer {
   height: 9rem;
-  background: #222;
+  background: var(--clr-white);
   text-align: center;
   display: grid;
   place-items: center;
 }
 .footer h4 {
   margin-top: 0.5rem;
-  color: var(--clr-white);
+  color: var(--clr-black);
   font-weight: normal;
   text-transform: uppercase;
 }
 .footer h4 span {
-  color: var(--clr-primary-5);
+  color: var(--clr-black);
 }
 .footer-links {
   margin: 0 auto 1rem auto;
   justify-content: center;
 }
 .footer .social-link {
-  color: var(--clr-white);
+  color: var(--clr-black);
 }
 .footer .social-link:hover {
   color: var(--clr-primary-3);
