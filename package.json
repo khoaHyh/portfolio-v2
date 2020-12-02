@@ -24,6 +24,7 @@
     "gatsby-source-filesystem": "^2.6.1",
     "gatsby-source-strapi": "0.0.12",
     "gatsby-transformer-sharp": "^2.7.0",
+    "global": "^4.4.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",

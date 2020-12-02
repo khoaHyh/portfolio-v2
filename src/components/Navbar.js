@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { FaAlignRight } from "react-icons/fa";
 import PageLinks from "../constants/links";
+import window from "global";
 
 export default class Navbar extends Component {
   constructor(props) {
