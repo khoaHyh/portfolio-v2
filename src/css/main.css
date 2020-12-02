@@ -222,6 +222,10 @@ Navbar
   z-index: 200;
   background: var(--clr-white);
   opacity: 0.85;
+  transition: var(--transition);
+}
+.navbar--hidden {
+  top: -5rem;
 }
 .nav-center {
   width: 90vw;
