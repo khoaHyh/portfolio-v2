@@ -221,7 +221,7 @@ Navbar
   align-items: center;
   z-index: 200;
   background: var(--clr-white);
-  opacity: 0.85;
+  opacity: 0.90;
   transition: var(--transition);
 }
 .navbar--hidden {
