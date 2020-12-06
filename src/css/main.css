@@ -709,7 +709,14 @@ About Page
   margin-right: 0;
 }
 .about-text p {
-  line-height: 2;
+  line-height: 1.5;
+}
+.hobby-list_header {
+  margin-bottom: 0.25rem;
+}
+.hobby-list li {
+  list-style-type: circle;
+  list-style-position: inside;
 }
 .stack-container {
   width: 30rem;

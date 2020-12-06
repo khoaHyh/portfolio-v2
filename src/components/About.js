@@ -15,6 +15,12 @@ const About = ({ title }) => {
             In the time that I have been coding, I have grown an appreciation for the bouts where we feel stuck or lost. 
             These experiences help shape us into becoming more resilient and keep us progressing forward.
           </p>
+          <p className="hobby-list_header">Outside of work, I enjoy:</p>
+          <ul className="hobby-list">
+            <li>Practicing Jiu-jitsu and MMA</li>
+            <li>Expressing myself through street dance culture</li>
+            <li>Playing video games</li>
+          </ul>
           <p>
             Below are some of the technologies I have been working with recently:
           </p>
