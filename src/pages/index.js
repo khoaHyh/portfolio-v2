@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Hero from "../components/Hero"
 import Projects from "../components/Projects"
-// import About from "../components/About"
+import About from "../components/About"
 import Contact from "../components/Contact"
 import SEO from "../components/SEO"
 
@@ -18,7 +18,7 @@ export default ({ data }) => {
       <Hero />
       <Projects projects={projects} title="featured work"
         showLink />
-      {/* <About title="about" /> */}
+      <About title="about" />
       <Contact title="Contact" />
     </Layout>
   )
