@@ -4,7 +4,7 @@ import Title from "../components/Title"
 // import Image from "gatsby-image"
 
 const About = ({ title }) => {
-  return  <section className="about-page">
+  return  <section id="about" className="about-page">
     <Title title={title} />
     <div className="section-center about-center">
       <article className="about-text">
