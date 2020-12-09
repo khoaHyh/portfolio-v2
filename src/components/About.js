@@ -10,9 +10,9 @@ const About = ({ title }) => {
       <article className="about-text">
           <p>
             Hello! I'm a web developer based in Toronto, Ontario, Canada. 
-            I enjoy creating apps and solving problems that strive to benefit humanity. 
-            In the time that I have been coding, I have grown an appreciation for the bouts where we feel stuck or lost. 
-            These experiences help us become more resilient and keep us progressing forward.
+            I enjoy solving problems and working to make difference for the future
+            of humanity. My aim is to use my experiences in life and apply that to
+            my work, in hopes that it will make a difference for the better.
           </p>
           <p className="hobby-list_header">Outside of work, I enjoy:</p>
           <ul className="hobby-list">
