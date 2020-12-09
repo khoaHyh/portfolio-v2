@@ -12,7 +12,7 @@ const About = ({ title }) => {
             Hello! I'm a web developer based in Toronto, Ontario, Canada. 
             I enjoy creating apps and solving problems that strive to benefit humanity. 
             In the time that I have been coding, I have grown an appreciation for the bouts where we feel stuck or lost. 
-            These experiences help shape us into becoming more resilient and keep us progressing forward.
+            These experiences help us become more resilient and keep us progressing forward.
           </p>
           <p className="hobby-list_header">Outside of work, I enjoy:</p>
           <ul className="hobby-list">
