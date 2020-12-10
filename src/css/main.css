@@ -346,6 +346,11 @@ Sidebar
 .close-btn:hover {
   color: var(--clr-black)
 }
+@media screen and (min-width: 768px){
+  .sidebar {
+    visibility: hidden;
+  }
+}
 @media screen and (min-width: 992px) {
   .sidebar {
     transform: translateX(-100%);
