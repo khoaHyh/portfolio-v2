@@ -29,7 +29,7 @@ const Hero = () => {
         <div>
           <h1 className="hero-hi">Hi!</h1>
           <h1>I'm <strong>Khoa Huynh</strong></h1>
-          <h4>Web Developer</h4>
+          <h4>Software Engineer</h4>
           <AnchorLink to='/#contact' className="btn" title="contact me" />
           <SocialLinks />
         </div>
