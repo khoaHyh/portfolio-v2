@@ -9,16 +9,16 @@ import SEO from "../components/SEO"
 
 export default ({ data }) => {
   const {
-    allStrapiProjects: { nodes:projects },
+    allStrapiProjects: { nodes: projects },
   } = data
+
+  //<About title="about" />
 
   return (
     <Layout>
       <SEO title="Home" description="Home Page" />
       <Hero />
-      <Projects projects={projects} title="featured work"
-        showLink />
-      <About title="about" />
+      <Projects projects={projects} title="featured work" showLink />
       <Contact title="Contact" />
     </Layout>
   )
@@ -26,7 +26,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   {
-    allStrapiProjects(filter: {featured: {eq: true}}) {
+    allStrapiProjects(filter: { featured: { eq: true } }) {
       nodes {
         github
         id
@@ -48,3 +48,4 @@ export const query = graphql`
     }
   }
 `
+
