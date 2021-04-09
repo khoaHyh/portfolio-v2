@@ -16,7 +16,7 @@ export default ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="Home" description="Home Page" />
+      <SEO />
       <Hero />
       <Projects projects={projects} title="featured work" showLink />
       <Contact title="Contact" />

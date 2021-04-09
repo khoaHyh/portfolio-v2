@@ -7,8 +7,10 @@
 module.exports = {
   siteMetadata: {
     title: "Khoa Huynh",
-    description: "Khoa Huynh's Portfolio Site",
+    description:
+      "Khoa Huynh is a software developer who specializes in building secure and efficient web applications.",
     author: "@khoaHyh",
+    type: "website",
     twitterUsername: "@khoaHyh",
     image: "https://khoahuynh.ca/portfolio-v2-screenshot.png",
     siteUrl: "https://khoahuynh.ca",
