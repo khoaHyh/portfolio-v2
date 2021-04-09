@@ -10,7 +10,7 @@ module.exports = {
     description: "Khoa Huynh's Portfolio Site",
     author: "@khoaHyh",
     twitterUsername: "@khoaHyh",
-    image: "/portfolio-v2-screenshot.png",
+    image: "https://khoahuynh.ca/portfolio-v2-screenshot.png",
     siteUrl: "https://khoahuynh.ca",
   },
   plugins: [
