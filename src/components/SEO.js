@@ -6,9 +6,9 @@ const query = graphql`
   {
     site {
       siteMetadata {
-        author
         description
         image
+        type
         siteUrl
         title
         twitterUsername
@@ -36,7 +36,7 @@ const SEO = () => {
         property="og:description"
         content={description}
       />
-      <meta name="author" content="@khoaHyh" />
+      <meta name="author" content={twitterUsername} />
       <meta name="image" property="og:image" content={image} />
       {/* twitter cards */}
       <meta property="og:url" content={siteUrl} />
